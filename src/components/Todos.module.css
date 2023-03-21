@@ -1,0 +1,92 @@
+.todos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b46e2bb;
+  color: white;
+}
+.heading {
+  text-align: center;
+}
+.todolist-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 140px);
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.todos ol {
+  padding: 2rem 0;
+  width: 60%;
+  height: 87%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.listItem {
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 5px 0;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.actions svg {
+  padding: 10px;
+  color: grey;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.actions svg:hover {
+  background-color: rgb(209, 209, 209);
+  color: #2b46e2bb;
+}
+
+.add-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.wrapper {
+  width: 63%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.add-wrapper svg {
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  background-color: rgb(62, 128, 0);
+  border-radius: 50%;
+  margin-top: -80px;
+}
+
+.add-wrapper svg:hover {
+  background-color: rgba(62, 128, 0, 0.726);
+}
